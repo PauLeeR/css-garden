@@ -1,1 +1,98 @@
 /* Agrega aquí tus estilos*/
+* {
+    margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;	
+}
+
+body{
+	background-color: #addba6;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: large;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header {
+    color: #165116 solid;
+    background: url(../img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: -60px;
+    margin-right: -60px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.summary {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 4%;
+	text-align: center;	
+	color: #555555;
+    text-align: center;
+    border: 0px solid;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    color: #111f14;
+    background-color: rgba(132, 160, 99, 0.68);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+h1,h2{
+	color: #8f5aa6 solid;
+	font-family: 'Open Sans Condensed', cursive;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: ;	
+}
+
+
+h3{
+	color:#600731 solid;
+	font-family: 'Open Sans Condensed', cursive;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: #8f5aa6;	
+	padding-bottom: 2%;
+	font-size: 1.6em;
+	margin-bottom: 10px;
+    margin-left: 8px;
+    margin-top: 10px;
+
+}
+	
+footer a:link{
+	text-align-last: center;	
+	background-color: #f4dee3;
+	margin-left: 20;
+	margin-right: 20;
+	margin-bottom: 4%;
+	color: #ee2d58;
+	padding-left: 7%;
+	padding-right: 10%;
+	padding-top: 1;
+	padding-bottom: 1x%;				
+	font-weight: 700;
+	text-transform: uppercase;
+}
+footer a:visited{
+	color:#f78fa6;
+}
+
+footer a:hover, a:active {
+	text-align-last: center;	
+	background-color: #98eae1;
+	font-weight: 300;
+	color: #FFF;	
+}
+
+
+
